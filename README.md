@@ -14,10 +14,9 @@ int main(){
   string simple, past, participle, compara[103], compara1[103], compara2[103],texto, opcion1, opcion2;
 
   for(i=0;i<=102;i++){
-    fin >> simple >> past >> participle;
     compara[i]=simple;
-    compara1[i]=past;
-    compara2[i]=participle;
+    compara[i]=past;
+    compara[i]=participle;
   }
 
   do{
